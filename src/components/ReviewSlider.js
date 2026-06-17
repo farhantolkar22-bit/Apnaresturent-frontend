@@ -31,7 +31,7 @@ export default function ReviewSlider() {
   useEffect(() => {
     const fetchReviews = async () => {
       try {
-        const res = await fetch('http://localhost:5000/api/menu/reviews');
+        const res = await fetch(`${process.env.NEXT_PUBLIC_API_URL || 'http://localhost:5000/api'}/menu/reviews`);
         if (res.ok) {
           const data = await res.json();
           if (data && data.length > 0) {
