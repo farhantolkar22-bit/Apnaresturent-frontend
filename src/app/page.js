@@ -8,7 +8,7 @@ import FoodCard from '../components/FoodCard';
 
 const galleryImages = [
   "https://images.unsplash.com/photo-1563245372-f21724e3856d?auto=format&fit=crop&q=80&w=600",
-  "https://images.unsplash.com/photo-1544816155-12df9643f363?auto=format&fit=crop&q=80&w=600",
+  "https://images.unsplash.com/photo-1597481499750-3e6b22637e12?auto=format&fit=crop&q=80&w=600",
   "https://images.unsplash.com/photo-1585032226651-759b368d7246?auto=format&fit=crop&q=80&w=600",
   "https://images.unsplash.com/photo-1568901346375-23c9450c58cd?auto=format&fit=crop&q=80&w=600",
   "https://images.unsplash.com/photo-1576107232684-1279f390859f?auto=format&fit=crop&q=80&w=600",
@@ -16,6 +16,7 @@ const galleryImages = [
 ];
 
 const mockSignatures = [
+  // --- TOP DISPLAY (MIX OF CHINESE SIGNATURES) ---
   {
     _id: "m50",
     name: "Chicken Apna Special Noodles",
@@ -49,6 +50,18 @@ const mockSignatures = [
     isSignature: false,
     isAvailable: true
   },
+  {
+    _id: "m10",
+    name: "Chicken Triple Fried Rice",
+    description: "Combination of chicken fried rice and noodles served with a delicious spicy gravy and crispy fried noodles.",
+    price: 200,
+    halfPrice: 120,
+    category: "rice",
+    image: "https://images.unsplash.com/photo-1608897013039-887f21d8c804?auto=format&fit=crop&q=80&w=600",
+    isSignature: true,
+    isAvailable: true
+  },
+
   // --- ALL RICE DISHES FROM THE MENU ---
   {
     _id: "m7",
@@ -68,7 +81,7 @@ const mockSignatures = [
     price: 150,
     halfPrice: 80,
     category: "rice",
-    image: "https://images.unsplash.com/photo-1603133872878-684f208fb84b?auto=format&fit=crop&q=80&w=600",
+    image: "https://images.unsplash.com/photo-1534422298391-e4f8c172dddb?auto=format&fit=crop&q=80&w=600",
     isSignature: false,
     isAvailable: true
   },
@@ -84,24 +97,13 @@ const mockSignatures = [
     isAvailable: true
   },
   {
-    _id: "m10",
-    name: "Chicken Triple Fried Rice",
-    description: "Combination of chicken fried rice and noodles served with a delicious spicy gravy and crispy fried noodles.",
-    price: 200,
-    halfPrice: 120,
-    category: "rice",
-    image: "https://images.unsplash.com/photo-1512058564366-18510be2db19?auto=format&fit=crop&q=80&w=600",
-    isSignature: true,
-    isAvailable: true
-  },
-  {
     _id: "m11",
     name: "Chicken Chopper Fried Rice",
     description: "Wok-tossed chicken fried rice topped with a thick, savory chicken gravy and garnished with chopped green onions.",
     price: 240,
     halfPrice: 140,
     category: "rice",
-    image: "https://images.unsplash.com/photo-1603133872878-684f208fb84b?auto=format&fit=crop&q=80&w=600",
+    image: "https://images.unsplash.com/photo-1569058242253-92a9c755a0ec?auto=format&fit=crop&q=80&w=600",
     isSignature: false,
     isAvailable: true
   },
@@ -112,7 +114,7 @@ const mockSignatures = [
     price: 280,
     halfPrice: 150,
     category: "rice",
-    image: "https://images.unsplash.com/photo-1512058564366-18510be2db19?auto=format&fit=crop&q=80&w=600",
+    image: "https://images.unsplash.com/photo-1546069901-ba9599a7e63c?auto=format&fit=crop&q=80&w=600",
     isSignature: false,
     isAvailable: true
   },
@@ -134,7 +136,7 @@ const mockSignatures = [
     price: 280,
     halfPrice: 180,
     category: "rice",
-    image: "https://images.unsplash.com/photo-1512058564366-18510be2db19?auto=format&fit=crop&q=80&w=600",
+    image: "https://images.unsplash.com/photo-1623653387945-2fd25214f8fc?auto=format&fit=crop&q=80&w=600",
     isSignature: false,
     isAvailable: true
   },
@@ -145,7 +147,7 @@ const mockSignatures = [
     price: 280,
     halfPrice: 180,
     category: "rice",
-    image: "https://images.unsplash.com/photo-1603133872878-684f208fb84b?auto=format&fit=crop&q=80&w=600",
+    image: "https://images.unsplash.com/photo-1585032226651-759b368d7246?auto=format&fit=crop&q=80&w=600",
     isSignature: true,
     isAvailable: true
   },
@@ -156,7 +158,7 @@ const mockSignatures = [
     price: 180,
     halfPrice: 100,
     category: "rice",
-    image: "https://images.unsplash.com/photo-1603133872878-684f208fb84b?auto=format&fit=crop&q=80&w=600",
+    image: "https://images.unsplash.com/photo-1536392139656-3ee2fbead42a?auto=format&fit=crop&q=80&w=600",
     isSignature: false,
     isAvailable: true
   },
@@ -187,7 +189,7 @@ const mockSignatures = [
     price: 140,
     halfPrice: 70,
     category: "rice",
-    image: "https://images.unsplash.com/photo-1603133872878-684f208fb84b?auto=format&fit=crop&q=80&w=600",
+    image: "https://images.unsplash.com/photo-1512058564366-18510be2db19?auto=format&fit=crop&q=80&w=600",
     isSignature: false,
     isAvailable: true
   },
@@ -198,7 +200,7 @@ const mockSignatures = [
     price: 150,
     halfPrice: 80,
     category: "rice",
-    image: "https://images.unsplash.com/photo-1603133872878-684f208fb84b?auto=format&fit=crop&q=80&w=600",
+    image: "https://images.unsplash.com/photo-1608897013039-887f21d8c804?auto=format&fit=crop&q=80&w=600",
     isSignature: false,
     isAvailable: true
   },
@@ -209,7 +211,7 @@ const mockSignatures = [
     price: 180,
     halfPrice: 100,
     category: "rice",
-    image: "https://images.unsplash.com/photo-1512058564366-18510be2db19?auto=format&fit=crop&q=80&w=600",
+    image: "https://images.unsplash.com/photo-1623653387945-2fd25214f8fc?auto=format&fit=crop&q=80&w=600",
     isSignature: true,
     isAvailable: true
   },
@@ -220,7 +222,7 @@ const mockSignatures = [
     price: 220,
     halfPrice: 120,
     category: "rice",
-    image: "https://images.unsplash.com/photo-1603133872878-684f208fb84b?auto=format&fit=crop&q=80&w=600",
+    image: "https://images.unsplash.com/photo-1546069901-ba9599a7e63c?auto=format&fit=crop&q=80&w=600",
     isSignature: false,
     isAvailable: true
   },
@@ -253,7 +255,7 @@ const mockSignatures = [
     price: 220,
     halfPrice: 130,
     category: "rice",
-    image: "https://images.unsplash.com/photo-1512058564366-18510be2db19?auto=format&fit=crop&q=80&w=600",
+    image: "https://images.unsplash.com/photo-1536392139656-3ee2fbead42a?auto=format&fit=crop&q=80&w=600",
     isSignature: false,
     isAvailable: true
   },
@@ -267,6 +269,73 @@ const mockSignatures = [
     isSignature: false,
     isAvailable: true
   },
+  {
+    _id: "m70",
+    name: "Mushroom Fried Rice",
+    description: "Delicious stir-fried Chinese rice cooked with fresh button mushrooms, garlic cloves, and chopped green onions.",
+    price: 160,
+    halfPrice: 90,
+    category: "rice",
+    image: "https://images.unsplash.com/photo-1623653387945-2fd25214f8fc?auto=format&fit=crop&q=80&w=600",
+    isSignature: false,
+    isAvailable: true
+  },
+  {
+    _id: "m71",
+    name: "Schezwan Egg Fried Rice",
+    description: "Spicy Schezwan rice wok-tossed with multiple scrambled eggs, sliced bell peppers, cabbage, and red chili sauce.",
+    price: 160,
+    halfPrice: 90,
+    category: "rice",
+    image: "https://images.unsplash.com/photo-1536392139656-3ee2fbead42a?auto=format&fit=crop&q=80&w=600",
+    isSignature: false,
+    isAvailable: true
+  },
+  {
+    _id: "m72",
+    name: "Chicken Burnt Garlic Rice",
+    description: "Aromatic fried rice loaded with crispy golden burnt garlic flakes, tender chicken bites, and fresh green onions.",
+    price: 190,
+    halfPrice: 110,
+    category: "rice",
+    image: "https://images.unsplash.com/photo-1569058242253-92a9c755a0ec?auto=format&fit=crop&q=80&w=600",
+    isSignature: false,
+    isAvailable: true
+  },
+  {
+    _id: "m73",
+    name: "Veg Burnt Garlic Rice",
+    description: "A fragrant wok-style rice tossed with plenty of crispy golden garlic, baby corn, fresh broccoli, and sweet carrots.",
+    price: 160,
+    halfPrice: 90,
+    category: "rice",
+    image: "https://images.unsplash.com/photo-1546069901-ba9599a7e63c?auto=format&fit=crop&q=80&w=600",
+    isSignature: false,
+    isAvailable: true
+  },
+  {
+    _id: "m74",
+    name: "Singapore Fried Rice",
+    description: "Aromatic curry-scented Chinese fried rice prepared with broccoli, fresh beans, cashew nuts, and sweet raisins.",
+    price: 180,
+    halfPrice: 100,
+    category: "rice",
+    image: "https://images.unsplash.com/photo-1534422298391-e4f8c172dddb?auto=format&fit=crop&q=80&w=600",
+    isSignature: false,
+    isAvailable: true
+  },
+  {
+    _id: "m75",
+    name: "Shanghai Fried Rice",
+    description: "Cantonese dark-soy fried rice tossed with tender mushrooms, sweet green peas, spring sprouts, and local spices.",
+    price: 180,
+    halfPrice: 100,
+    category: "rice",
+    image: "https://images.unsplash.com/photo-1608897013039-887f21d8c804?auto=format&fit=crop&q=80&w=600",
+    isSignature: false,
+    isAvailable: true
+  },
+
   // --- ALL NOODLES DISHES FROM THE MENU ---
   {
     _id: "m42",
@@ -286,7 +355,7 @@ const mockSignatures = [
     price: 150,
     halfPrice: 80,
     category: "noodles",
-    image: "https://images.unsplash.com/photo-1585032226651-759b368d7246?auto=format&fit=crop&q=80&w=600",
+    image: "https://images.unsplash.com/photo-1617093727343-374698b1b08d?auto=format&fit=crop&q=80&w=600",
     isSignature: false,
     isAvailable: true
   },
@@ -297,7 +366,7 @@ const mockSignatures = [
     price: 170,
     halfPrice: 90,
     category: "noodles",
-    image: "https://images.unsplash.com/photo-1585032226651-759b368d7246?auto=format&fit=crop&q=80&w=600",
+    image: "https://images.unsplash.com/photo-1618219908412-a29a1bb7b86e?auto=format&fit=crop&q=80&w=600",
     isSignature: false,
     isAvailable: true
   },
@@ -308,7 +377,7 @@ const mockSignatures = [
     price: 200,
     halfPrice: 120,
     category: "noodles",
-    image: "https://images.unsplash.com/photo-1585032226651-759b368d7246?auto=format&fit=crop&q=80&w=600",
+    image: "https://images.unsplash.com/photo-1552611052-33e04de081de?auto=format&fit=crop&q=80&w=600",
     isSignature: true,
     isAvailable: true
   },
@@ -319,7 +388,7 @@ const mockSignatures = [
     price: 240,
     halfPrice: 140,
     category: "noodles",
-    image: "https://images.unsplash.com/photo-1585032226651-759b368d7246?auto=format&fit=crop&q=80&w=600",
+    image: "https://images.unsplash.com/photo-1563245372-f21724e3856d?auto=format&fit=crop&q=80&w=600",
     isSignature: false,
     isAvailable: true
   },
@@ -330,7 +399,7 @@ const mockSignatures = [
     price: 280,
     halfPrice: 150,
     category: "noodles",
-    image: "https://images.unsplash.com/photo-1585032226651-759b368d7246?auto=format&fit=crop&q=80&w=600",
+    image: "https://images.unsplash.com/photo-1525755662778-989d0524087e?auto=format&fit=crop&q=80&w=600",
     isSignature: false,
     isAvailable: true
   },
@@ -341,7 +410,7 @@ const mockSignatures = [
     price: 240,
     halfPrice: 140,
     category: "noodles",
-    image: "https://images.unsplash.com/photo-1585032226651-759b368d7246?auto=format&fit=crop&q=80&w=600",
+    image: "https://images.unsplash.com/photo-1546069901-ba9599a7e63c?auto=format&fit=crop&q=80&w=600",
     isSignature: false,
     isAvailable: true
   },
@@ -363,7 +432,7 @@ const mockSignatures = [
     price: 180,
     halfPrice: 100,
     category: "noodles",
-    image: "https://images.unsplash.com/photo-1585032226651-759b368d7246?auto=format&fit=crop&q=80&w=600",
+    image: "https://images.unsplash.com/photo-1618219908412-a29a1bb7b86e?auto=format&fit=crop&q=80&w=600",
     isSignature: false,
     isAvailable: true
   },
@@ -373,7 +442,7 @@ const mockSignatures = [
     description: "Wok-fried soft noodles tossed with batter-fried chicken nuggets and raw cabbage salad.",
     price: 200,
     category: "noodles",
-    image: "https://images.unsplash.com/photo-1585032226651-759b368d7246?auto=format&fit=crop&q=80&w=600",
+    image: "https://images.unsplash.com/photo-1552611052-33e04de081de?auto=format&fit=crop&q=80&w=600",
     isSignature: false,
     isAvailable: true
   },
@@ -383,7 +452,7 @@ const mockSignatures = [
     description: "Health-focused boiled noodles tossed lightly with olive oil, boiled chicken shreds, and spring onions.",
     price: 100,
     category: "noodles",
-    image: "https://images.unsplash.com/photo-1585032226651-759b368d7246?auto=format&fit=crop&q=80&w=600",
+    image: "https://images.unsplash.com/photo-1563245372-f21724e3856d?auto=format&fit=crop&q=80&w=600",
     isSignature: false,
     isAvailable: true
   },
@@ -405,7 +474,7 @@ const mockSignatures = [
     price: 150,
     halfPrice: 80,
     category: "noodles",
-    image: "https://images.unsplash.com/photo-1585032226651-759b368d7246?auto=format&fit=crop&q=80&w=600",
+    image: "https://images.unsplash.com/photo-1618219908412-a29a1bb7b86e?auto=format&fit=crop&q=80&w=600",
     isSignature: false,
     isAvailable: true
   },
@@ -416,7 +485,7 @@ const mockSignatures = [
     price: 180,
     halfPrice: 100,
     category: "noodles",
-    image: "https://images.unsplash.com/photo-1585032226651-759b368d7246?auto=format&fit=crop&q=80&w=600",
+    image: "https://images.unsplash.com/photo-1552611052-33e04de081de?auto=format&fit=crop&q=80&w=600",
     isSignature: true,
     isAvailable: true
   },
@@ -427,7 +496,7 @@ const mockSignatures = [
     price: 220,
     halfPrice: 120,
     category: "noodles",
-    image: "https://images.unsplash.com/photo-1585032226651-759b368d7246?auto=format&fit=crop&q=80&w=600",
+    image: "https://images.unsplash.com/photo-1563245372-f21724e3856d?auto=format&fit=crop&q=80&w=600",
     isSignature: false,
     isAvailable: true
   },
@@ -460,7 +529,7 @@ const mockSignatures = [
     price: 220,
     halfPrice: 120,
     category: "noodles",
-    image: "https://images.unsplash.com/photo-1585032226651-759b368d7246?auto=format&fit=crop&q=80&w=600",
+    image: "https://images.unsplash.com/photo-1546069901-ba9599a7e63c?auto=format&fit=crop&q=80&w=600",
     isSignature: false,
     isAvailable: true
   },
@@ -471,6 +540,83 @@ const mockSignatures = [
     price: 180,
     category: "noodles",
     image: "https://images.unsplash.com/photo-1585032226651-759b368d7246?auto=format&fit=crop&q=80&w=600",
+    isSignature: false,
+    isAvailable: true
+  },
+  {
+    _id: "m76",
+    name: "Shanghai Pan-Fried Noodles",
+    description: "Crispy pan-fried noodles topped with stir-fried Chinese vegetables and mushrooms in a dark savory sauce.",
+    price: 170,
+    halfPrice: 90,
+    category: "noodles",
+    image: "https://images.unsplash.com/photo-1617093727343-374698b1b08d?auto=format&fit=crop&q=80&w=600",
+    isSignature: false,
+    isAvailable: true
+  },
+  {
+    _id: "m77",
+    name: "Chicken Chilli Garlic Noodles",
+    description: "Spicy noodles stir-fried with fragrant garlic cloves, green chillies, chicken shreds, and dark vinegar soy sauce.",
+    price: 170,
+    halfPrice: 95,
+    category: "noodles",
+    image: "https://images.unsplash.com/photo-1525755662778-989d0524087e?auto=format&fit=crop&q=80&w=600",
+    isSignature: false,
+    isAvailable: true
+  },
+  {
+    _id: "m78",
+    name: "Veg Chilli Garlic Noodles",
+    description: "Spicy wok-tossed noodles packed with a strong flavor of garlic, red chilli flakes, and shredded vegetables.",
+    price: 150,
+    halfPrice: 85,
+    category: "noodles",
+    image: "https://images.unsplash.com/photo-1546069901-ba9599a7e63c?auto=format&fit=crop&q=80&w=600",
+    isSignature: false,
+    isAvailable: true
+  },
+  {
+    _id: "m79",
+    name: "Chicken Dan Dan Noodles",
+    description: "Authentic Sichuan street-style noodles served in a savory, spicy, nutty sesame sauce with minced chicken chunks.",
+    price: 210,
+    halfPrice: 120,
+    category: "noodles",
+    image: "https://images.unsplash.com/photo-1552611052-33e04de081de?auto=format&fit=crop&q=80&w=600",
+    isSignature: false,
+    isAvailable: true
+  },
+  {
+    _id: "m80",
+    name: "Veg Dan Dan Noodles",
+    description: "Sichuan style noodles with savory soy-minced tofu and green onions in a spicy, nutty sesame sauce.",
+    price: 180,
+    halfPrice: 100,
+    category: "noodles",
+    image: "https://images.unsplash.com/photo-1563245372-f21724e3856d?auto=format&fit=crop&q=80&w=600",
+    isSignature: false,
+    isAvailable: true
+  },
+  {
+    _id: "m81",
+    name: "Chicken Singapore Rice Noodles",
+    description: "Thin vermicelli rice noodles stir-fried with fragrant yellow curry powder, chicken strips, egg, and fresh bell peppers.",
+    price: 180,
+    halfPrice: 100,
+    category: "noodles",
+    image: "https://images.unsplash.com/photo-1585032226651-759b368d7246?auto=format&fit=crop&q=80&w=600",
+    isSignature: false,
+    isAvailable: true
+  },
+  {
+    _id: "m82",
+    name: "Veg Singapore Rice Noodles",
+    description: "Delicate vermicelli noodles tossed in rich curry powder with cabbage, carrots, bell peppers, and bean sprouts.",
+    price: 160,
+    halfPrice: 90,
+    category: "noodles",
+    image: "https://images.unsplash.com/photo-1618219908412-a29a1bb7b86e?auto=format&fit=crop&q=80&w=600",
     isSignature: false,
     isAvailable: true
   }
@@ -705,7 +851,7 @@ export default function Home() {
           className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-8"
         >
           <AnimatePresence mode="popLayout">
-            {filteredSignatures.map((item, idx) => (
+            {filteredSignatures.slice(0, 4).map((item, idx) => (
               <motion.div
                 layout
                 key={idx}
@@ -719,6 +865,16 @@ export default function Home() {
             ))}
           </AnimatePresence>
         </motion.div>
+
+        {/* Show More Button */}
+        <div className="flex justify-center mt-6">
+          <Link
+            href="/menu"
+            className="bg-[#b71c1c] hover:bg-[#d32f2f] text-white font-bold uppercase tracking-widest px-8 py-4 rounded-xl transition duration-300 shadow-md text-xs cursor-pointer flex items-center gap-2"
+          >
+            Show More <ArrowRight className="w-4 h-4" />
+          </Link>
+        </div>
       </section>
 
       {/* 6. FOOD GALLERY WITH LIGHTBOX */}
@@ -780,103 +936,20 @@ export default function Home() {
 
       {/* 7. ONLINE TABLE RESERVATION FORM */}
       <section className="py-24 bg-neutral-50 dark:bg-[#1a1a1a]/30 border-y border-black/5 dark:border-white/5">
-        <div className="max-w-3xl mx-auto px-6 flex flex-col gap-12">
+        <div className="max-w-3xl mx-auto px-6 flex flex-col gap-8 items-center text-center">
           
-          <div className="text-center flex flex-col items-center gap-3">
+          <div className="flex flex-col items-center gap-3">
             <span className="text-xs text-[#b71c1c] uppercase tracking-widest font-semibold font-mono">Secure Your Place</span>
             <h2 className="text-3xl md:text-4xl font-serif font-bold text-neutral-800 dark:text-white tracking-wide">Online Table Reservation</h2>
-            <p className="text-xs text-neutral-400 max-w-md mx-auto">Book your dinner table instantly. A confirmation email and text receipt will be sent shortly.</p>
+            <p className="text-xs text-neutral-500 dark:text-neutral-400 max-w-md mx-auto">Book your dinner table instantly. A confirmation email and text receipt will be sent shortly.</p>
           </div>
 
-          {bookingSuccess ? (
-            <motion.div
-              initial={{ scale: 0.95, opacity: 0 }}
-              animate={{ scale: 1, opacity: 1 }}
-              className="bg-emerald-500/10 border border-emerald-500/30 text-emerald-600 dark:text-emerald-400 p-8 rounded-3xl text-center flex flex-col items-center gap-4"
-            >
-              <Award className="w-12 h-12" />
-              <div>
-                <h3 className="text-lg font-serif font-bold text-neutral-800 dark:text-white">Reservation Request Received!</h3>
-                <p className="text-xs text-neutral-400 mt-1">Our manager is verifying table availability and will confirm shortly.</p>
-              </div>
-            </motion.div>
-          ) : (
-            <form onSubmit={handleBookingSubmit} className="bg-white dark:bg-neutral-950/60 border border-black/5 dark:border-white/5 p-8 rounded-3xl flex flex-col gap-6 shadow-sm">
-              <div className="grid grid-cols-1 sm:grid-cols-2 gap-6">
-                <div className="flex flex-col gap-2">
-                  <label className="text-xs text-neutral-400 tracking-wider">Full Name</label>
-                  <input
-                    type="text"
-                    required
-                    value={reserveForm.name}
-                    onChange={(e) => setReserveForm({...reserveForm, name: e.target.value})}
-                    placeholder="Enter your name"
-                    className="bg-neutral-50 dark:bg-neutral-900 border border-black/5 dark:border-white/5 text-sm rounded-xl px-4 py-3 text-neutral-800 dark:text-white focus:outline-none focus:border-[#b71c1c]/50"
-                  />
-                </div>
-                <div className="flex flex-col gap-2">
-                  <label className="text-xs text-neutral-400 tracking-wider">Phone Number</label>
-                  <input
-                    type="tel"
-                    required
-                    value={reserveForm.phone}
-                    onChange={(e) => setReserveForm({...reserveForm, phone: e.target.value})}
-                    placeholder="10-digit mobile"
-                    className="bg-neutral-50 dark:bg-neutral-900 border border-black/5 dark:border-white/5 text-sm rounded-xl px-4 py-3 text-neutral-800 dark:text-white focus:outline-none focus:border-[#b71c1c]/50"
-                  />
-                </div>
-                <div className="flex flex-col gap-2">
-                  <label className="text-xs text-neutral-400 tracking-wider">Email Address (Optional)</label>
-                  <input
-                    type="email"
-                    value={reserveForm.email}
-                    onChange={(e) => setReserveForm({...reserveForm, email: e.target.value})}
-                    placeholder="name@example.com"
-                    className="bg-neutral-50 dark:bg-neutral-900 border border-black/5 dark:border-white/5 text-sm rounded-xl px-4 py-3 text-neutral-800 dark:text-white focus:outline-none focus:border-[#b71c1c]/50"
-                  />
-                </div>
-                <div className="flex flex-col gap-2">
-                  <label className="text-xs text-neutral-400 tracking-wider">Number of Guests</label>
-                  <select
-                    value={reserveForm.guests}
-                    onChange={(e) => setReserveForm({...reserveForm, guests: Number(e.target.value)})}
-                    className="bg-neutral-50 dark:bg-neutral-900 border border-black/5 dark:border-white/5 text-sm rounded-xl px-4 py-3 text-neutral-800 dark:text-white focus:outline-none focus:border-[#b71c1c]/50"
-                  >
-                    {[1,2,3,4,5,6,7,8,10,12].map(num => (
-                      <option key={num} value={num} className="bg-white dark:bg-neutral-950">{num} {num === 1 ? 'Guest' : 'Guests'}</option>
-                    ))}
-                  </select>
-                </div>
-                <div className="flex flex-col gap-2">
-                  <label className="text-xs text-neutral-400 tracking-wider">Reservation Date</label>
-                  <input
-                    type="date"
-                    required
-                    value={reserveForm.date}
-                    onChange={(e) => setReserveForm({...reserveForm, date: e.target.value})}
-                    className="bg-neutral-50 dark:bg-neutral-900 border border-black/5 dark:border-white/5 text-sm rounded-xl px-4 py-3 text-neutral-800 dark:text-white focus:outline-none focus:border-[#b71c1c]/50"
-                  />
-                </div>
-                <div className="flex flex-col gap-2">
-                  <label className="text-xs text-neutral-400 tracking-wider">Dinner Time Slot</label>
-                  <input
-                    type="time"
-                    required
-                    value={reserveForm.time}
-                    onChange={(e) => setReserveForm({...reserveForm, time: e.target.value})}
-                    className="bg-neutral-50 dark:bg-neutral-900 border border-black/5 dark:border-white/5 text-sm rounded-xl px-4 py-3 text-neutral-800 dark:text-white focus:outline-none focus:border-[#b71c1c]/50"
-                  />
-                </div>
-              </div>
-              <button
-                type="submit"
-                disabled={bookingLoading}
-                className="w-full bg-[#b71c1c] hover:bg-[#d32f2f] text-white font-bold uppercase tracking-widest py-4 rounded-xl transition cursor-pointer mt-2 shadow-sm disabled:opacity-50"
-              >
-                {bookingLoading ? 'Processing Booking...' : 'Request Reservation'}
-              </button>
-            </form>
-          )}
+          <Link
+            href="/reserve"
+            className="bg-[#b71c1c] hover:bg-[#d32f2f] text-white font-bold uppercase tracking-widest px-8 py-4 rounded-xl transition duration-300 shadow-md text-xs cursor-pointer flex items-center gap-2"
+          >
+            Request Reservation
+          </Link>
 
         </div>
       </section>
@@ -902,7 +975,7 @@ export default function Home() {
                 </div>
                 <div>
                   <h4 className="text-neutral-800 dark:text-white font-serif font-semibold text-xs sm:text-sm">Our Address</h4>
-                  <p className="text-neutral-500 dark:text-neutral-400 text-[11px] sm:text-xs mt-0.5">NEAR NH 66, TEMPALE-MANGAON 402104</p>
+                  <p className="text-neutral-500 dark:text-neutral-400 text-[11px] sm:text-xs mt-0.5">APNA CHINESE CENTER, NEAR NH 66, TEMPALE-MANGAON 402104</p>
                 </div>
               </div>
 
@@ -948,7 +1021,7 @@ export default function Home() {
           {/* Interactive Map Box Mockup */}
           <div className="relative rounded-3xl overflow-hidden min-h-[350px] border border-black/5 dark:border-white/5 shadow-md bg-neutral-100">
             <iframe
-              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3788.083832049592!2d73.3082522!3d18.2514157!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3be83dc09d94bdff%3A0xe54d924d54628fbc!2sTempale%2C%20Maharashtra%20402104!5e0!3m2!1sen!2sin!4v1718536294719!5m2!1sen!2sin"
+              src="https://maps.google.com/maps?q=Apna%20Chinese%20Center,%20Tempale-Mangaon%20402104&t=&z=16&ie=UTF8&iwloc=&output=embed"
               width="100%"
               height="100%"
               style={{ border: 0 }}
